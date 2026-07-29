@@ -1,9 +1,11 @@
-# udio-producer-mcp
+# udio-music (udio-producer-mcp)
 
-Autonomous IDM Producer MCP Server
+Udioを使った作曲プロジェクト。
 
-Udio（レンダリングエンジンの一つとして抽象化）を用いて、テーマ指定から自律ループ（生成 → 評価 → 改善 → 反復）でIDMトラックを制作するMCPサーバー。
+Autonomous IDM Producer MCP Server — Udio（レンダリングエンジンの一つとして抽象化）を用いて、
+テーマ指定から自律ループ（生成 → 評価 → 改善 → 反復）でIDMトラックを制作するMCPサーバー。
 
+プロジェクトの方針や共有ルールは [CLAUDE.md](./CLAUDE.md) を参照。
 設計方針・意思決定の背景は `docs/adr/` を参照。
 
 ## Requirements
