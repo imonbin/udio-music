@@ -4,8 +4,9 @@ Udioを使った作曲プロジェクト。
 
 ## Scope
 
-このリポジトリはUdio関連の作曲プロジェクト（プロンプト、生成結果のメモ、素材管理）
-のみを扱う。report-app / keiba-analysis / ableton-tracks の内容とは混在させない。
+このリポジトリはUdio関連の制作・ツール一式を扱う（作曲プロンプト、生成結果のメモ、
+素材管理に加えて、udio-producer-mcp等の関連ツールのソースコードも含む）。
+report-app / keiba-analysis / ableton-tracks の内容とは混在させない。
 
 ## Local ⇄ Cloud 共有ポリシー
 
@@ -18,4 +19,7 @@ Macのターミナルで動くClaude Code CLIと、Claude Code on the web（ク�
 
 ## Decisions / Learnings
 
-- (まだなし)
+- 2026-07-29: 当初「作曲プロンプト・素材管理用」として作成したが、実際の制作物である
+  udio-producer-mcp（Udioを使ったIDMトラック自律生成MCPサーバー）のソースコード一式を
+  このリポジトリで管理する方針に変更。README.mdもリモートの説明文とローカルの技術情報
+  （Requirements/Scripts/Status）を統合した。
