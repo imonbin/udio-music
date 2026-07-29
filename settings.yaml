@@ -1,0 +1,23 @@
+version: 1
+
+renderer: udio
+
+llmProviders:
+  producer: mcpSampling
+  promptEngineer: mcpSampling
+  critic: mcpSampling
+
+workflow:
+  maxIterations: 3
+  acceptanceThreshold: 0.7
+
+idmPreset:
+  genre: IDM
+  mood: [dark, glitchy]
+  rhythm: broken beat, 140bpm
+  texture: granular, bitcrushed
+  mix: wide stereo, saturated low end
+
+storage:
+  outputDir: output/tracks
+  memoryDataDir: memory-data

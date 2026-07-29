@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+
+# ランタイム生成物・個人データ（Gitで管理しない）
+memory-data/
+output/
+
+# 認証情報・秘密情報は絶対にコミットしない
+secrets/
+*.env
+.env*
+
+*.log
+.DS_Store
